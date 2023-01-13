@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>ToDoList | ArlekinDev</title>
+</head>
+<body>
+   <div class="todo">
+
+    <div class="header-title-todo">
+
+        <h1 class="header-title-todo--title">ToDo List</h1>
+
+    </div>
+
+    <div class="body-todo">
+
+        <div class="body-todo--todos">
+          
+        </div>
+
+    </div>
+
+    <div class="footer-create-todos">
+
+        <div class="footer-create-todos--head">
+            <span class="footer-create-todos--title">Добавить новую задачу</span>
+        </div>
+
+        <form action="#" class="footer-create-todos--body">
+          <div class="input-wrapper">
+            <input type="text" placeholder="Текст задачи" class="footer-create-todos--input" required>
+            <input type="date" placeholder="Текст задачи" class="footer-create-todos--date" >
+          </div>
+            <span class="footer-create-todos--span">Это примерный текст: "Купить молоко", "Встетить Диму в 7:00"</span>
+            <button type="submit" class="footer-create-todos--btn">Добавить</button>
+        </form>
+
+    </div>
+
+   
+   </div>
+
+   <script src="./scripts/createTodos.js"></script>
+   <script src="./scripts/deleteTodos.js"></script>
+   <script src="./scripts/doneTodos.js"></script>
+</body>
+</html>
